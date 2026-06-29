@@ -8,7 +8,7 @@
 
 ### Evolutionary Cladogram Visualizer
 
-Interactive visualization of evolutionary relationships through dynamic cladograms, geological timelines, and organism profiles.
+Explore Evolution • Trace Lineages • Discover Connections
 
 </p>
 
@@ -16,45 +16,25 @@ Interactive visualization of evolutionary relationships through dynamic cladogra
 
 ## 📖 Overview
 
-**Phylogenix** is an open-source educational platform for exploring evolutionary biology through interactive cladograms. It enables users to trace common ancestry, discover phylogenetic relationships, and visualize the history of life using scientifically organized taxonomic data.
+**Phylogenix** is an open-source educational platform for exploring evolutionary relationships through interactive cladograms, geological timelines, and organism profiles.
 
 ---
 
 ## ✨ Features
 
-- 🌳 Interactive evolutionary cladogram
-- 📅 Geological timeline integration
+- 🌳 Interactive cladogram
+- 📅 Geological timeline
 - 🧬 Organism profile cards
-- 🔍 Smart search and navigation
-- ↔️ Pan and zoom controls
-- 📱 Responsive, browser-based interface
+- 🔍 Smart search
+- ↔️ Pan & zoom
 - 💾 Export as standalone HTML
-
----
-
-## 🎓 Built For
-
-- Evolutionary Biology
-- Zoology
-- Taxonomy & Systematics
-- Paleontology
-- Science Education
-- Research Visualization
-
----
-
-## 🛠️ Technologies
-
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- HTML5 Canvas API
+- 📱 Responsive interface
 
 ---
 
 ## 📜 License
 
-Licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+ **GNU General Public License v3.0 (GPL-3.0)**.
 
 ---
 
@@ -70,13 +50,13 @@ Licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
 
 ## 🙏 Acknowledgements
 
-This project was independently conceived, designed, and developed by the author. Modern AI tools and cloud services accelerated development, debugging, and deployment.
+Developed with assistance from modern AI tools and cloud technologies.
 
 Special thanks to:
 
-- **OpenAI (ChatGPT)** — scientific review, debugging, implementation, and documentation
+- **OpenAI (ChatGPT)** — scientific review, debugging, and implementation
 - **Anthropic Claude** — implementation assistance and optimization
-- **Google Gemini** — concept exploration and idea refinement
+- **Google Gemini** — concept exploration and refinement
 - **Moonshot AI** — debugging and prototype refinement
 - **DeepSeek** — early drafts and experimentation
 - **Supabase** — backend infrastructure, image hosting, URL management, and cloud storage
