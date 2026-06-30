@@ -1083,7 +1083,7 @@
                         <button class="pc-back-btn" onclick="closeProfileCard()">← BACK</button>
                         <button class="pc-edit-toggle visible" id="pc-edit-toggle-btn" onclick="toggleProfileEditMode()">EDIT</button>
                     </div>
-                    <span id="pc-toolbar-title" style="font-size:0.8rem;color:var(--text-muted);font-weight:600;letter-spacing:0.05em;text-transform:uppercase;">Geochelone elegans</span>
+                    <span id="pc-toolbar-title" style="font-size:0.8rem;color:var(--text-muted);font-weight:600;letter-spacing:0.05em;text-transform:uppercase;">Dimetrodon grandis (Fossil-based AI reconstruction)</span>
                 </div>
                 <div id="profile-card-container">
 <div class="profile-card" id="active-profile-card">
@@ -1091,12 +1091,12 @@
   <!-- HEADER -->
   <div class="pcf-header">
     <div class="pcf-header-top">
-      <input class="pc-editable pcf-name" data-field="scientificName" type="text" value="Geochelone elegans" placeholder="Scientific name…" readonly="" disabled="" style="pointer-events: none;">
-      <div class="pc-status-pill living">
-             🟢 Living
+      <input class="pc-editable pcf-name" data-field="scientificName" type="text" value="Dimetrodon grandis (Fossil-based AI reconstruction)" placeholder="Scientific name…" readonly="" disabled="" style="pointer-events: none;">
+      <div class="pc-status-pill extinct">
+             ❌ Extinct
            </div>
     </div>
-    <input class="pc-editable pcf-subtitle" data-field="taxonomicClassification" type="text" value="Order Testudines, Family Testudinidae" placeholder="Taxonomic classification…" readonly="" disabled="" style="pointer-events: none;">
+    <input class="pc-editable pcf-subtitle" data-field="taxonomicClassification" type="text" value="Clade Synapsida, Order Pelycosauria" placeholder="Taxonomic classification…" readonly="" disabled="" style="pointer-events: none;">
     <div class="pc-edit-hint">✎ Click any field to edit</div>
   </div>
 
@@ -1105,10 +1105,10 @@
     <!-- IMAGE (large hero) -->
     <div class="pcf-image-block">
       <div class="pcf-img-frame has-image" onclick="">
-        <img src="https://ypminrbyqdlgysfitjst.supabase.co/storage/v1/object/public/Phylogenix%20DB/Testudines/%20Indian%20Star%20Tortoise.webp" data-img-url="https://ypminrbyqdlgysfitjst.supabase.co/storage/v1/object/public/Phylogenix%20DB/Testudines/%20Indian%20Star%20Tortoise.webp" onerror="onProfileImageError(this)">
+        <img src="https://ypminrbyqdlgysfitjst.supabase.co/storage/v1/object/public/Phylogenix%20DB/pelycosaurus/Dimetrodon.webp" data-img-url="https://ypminrbyqdlgysfitjst.supabase.co/storage/v1/object/public/Phylogenix%20DB/pelycosaurus/Dimetrodon.webp" onerror="onProfileImageError(this)">
       </div>
       <div class="pc-image-url-row">
-        <input class="pc-image-url-input" id="img-url-input-0" placeholder="Folder/filename.png (Supabase path)" value="https://ypminrbyqdlgysfitjst.supabase.co/storage/v1/object/public/Phylogenix%20DB/Testudines/%20Indian%20Star%20Tortoise.webp">
+        <input class="pc-image-url-input" id="img-url-input-0" placeholder="Folder/filename.png (Supabase path)" value="https://ypminrbyqdlgysfitjst.supabase.co/storage/v1/object/public/Phylogenix%20DB/pelycosaurus/Dimetrodon.webp">
         <button class="pc-image-url-btn" onclick="applyImageUrl()">SET</button>
       </div>
     </div>
@@ -1118,11 +1118,11 @@
       <div class="pcf-chrono-block">
         <div class="pcf-chrono-head">Chrono<br>Horizon</div>
         <div class="pcf-chrono-track">
-          <span class="pcf-chrono-tag" style="color:#10b981;">0 Mya</span>
+          <span class="pcf-chrono-tag" style="color:#10b981;">280 Mya</span>
           <span class="pcf-chrono-dot" style="background:#10b981;"></span>
-          <span class="pcf-chrono-line" style="background:linear-gradient(to right,#10b981,#10b981);"></span>
-          <span class="pcf-chrono-dot" style="background:#10b981;"></span>
-          <span class="pcf-chrono-tag" style="color:#10b981;">Present</span>
+          <span class="pcf-chrono-line" style="background:linear-gradient(to right,#10b981,#ef4444);"></span>
+          <span class="pcf-chrono-dot" style="background:#ef4444;"></span>
+          <span class="pcf-chrono-tag" style="color:#ef4444;">252 Mya</span>
         </div>
       </div>
 
@@ -1130,30 +1130,31 @@
       <div class="pcf-facts-row">
         <div>
           <div class="pcf-fact-label">Ancestor</div>
-          <div class="pcf-fact-value">Solnhofia parsonsi</div>
+          <div class="pcf-fact-value">Archaeothyris (Fossil-based AI reconstruction)</div>
         </div>
         <div>
           <div class="pcf-fact-label">Diet</div>
-          <textarea class="pc-editable pcf-fact-value" data-field="diet" placeholder="e.g. Carnivore…" readonly="" disabled="" style="height: 42px; pointer-events: none;">Herbivore</textarea>
+          <textarea class="pc-editable pcf-fact-value" data-field="diet" placeholder="e.g. Carnivore…" readonly="" disabled="" style="height: 42px; pointer-events: none;">Carnivore (apex predator)</textarea>
         </div>
       </div>
       <div class="pcf-facts-row">
         <div>
           <div class="pcf-fact-label">Common Name</div>
-          <textarea class="pc-editable pcf-fact-value" data-field="commonName" placeholder="e.g. Turtles…" readonly="" disabled="" style="height: 42px; pointer-events: none;"> Indian Star Tortoise</textarea>
+          <textarea class="pc-editable pcf-fact-value" data-field="commonName" placeholder="e.g. Turtles…" readonly="" disabled="" style="height: 42px; pointer-events: none;">Sail-backed reptiles</textarea>
         </div>
         <div>
           <div class="pcf-fact-label">Habitat</div>
-          <textarea class="pc-editable pcf-fact-value" data-field="habitat" placeholder="e.g. Marine, Terrestrial…" readonly="" disabled="" style="height: 63px; pointer-events: none;">Terrestrial, Dry scrubland and grassland</textarea>
+          <textarea class="pc-editable pcf-fact-value" data-field="habitat" placeholder="e.g. Marine, Terrestrial…" readonly="" disabled="" style="height: 42px; pointer-events: none;">Terrestrial</textarea>
         </div>
       </div>
 
       <!-- DISTINGUISHING CHARACTERS -->
       <div class="pcf-features">
         <div class="pcf-features-label">Distinguishing Characters</div>
-        <textarea class="pc-editable pcf-features-text" data-field="distinguishingFeatures" placeholder="Key morphological or behavioural features…" spellcheck="false" readonly="" disabled="" style="height: 84px; pointer-events: none;">- Star-shaped radiating patterns on each scute of shell
-- High-domed shell for thermoregulation
-- Fully retractable head and limbs into shell</textarea>
+        <textarea class="pc-editable pcf-features-text" data-field="distinguishingFeatures" placeholder="Key morphological or behavioural features…" spellcheck="false" readonly="" disabled="" style="height: 84px; pointer-events: none;">- Large dorsal sail supported by elongated neural spines 
+- Differentiated teeth — earliest heterodont synapsids 
+- Sprawling gait, dominant predators of Early Permian
+</textarea>
       </div>
     </div>
 
@@ -1966,7 +1967,7 @@
           "images": [
             "https://ypminrbyqdlgysfitjst.supabase.co/storage/v1/object/public/Phylogenix%20DB/pelycosaurus/Dimetrodon.webp"
           ],
-          "extinctionMya": 0
+          "extinctionMya": 252
         }
       },
       {
