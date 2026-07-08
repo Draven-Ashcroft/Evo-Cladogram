@@ -1,72 +1,30 @@
-<p align="center">
-  <img src="Assets/Banner.png" alt="Phylogenix Banner" width="100%">
-</p>
-
-# 🌳 Phylogenix
+# Evogen-Mapper
 
 <p align="center">
-
-### Evolutionary Cladogram Visualizer
-
-Explore Evolution • Trace Lineages • Discover Connections
-
+  <img src="assets/repo-banner.svg" alt="Evogen-Mapper" width="100%">
 </p>
 
----
+**Phylogenetic Data Matrix Engine**
 
-## 📖 Overview
-
-**Phylogenix** is an open-source educational platform for exploring evolutionary relationships through interactive cladograms, geological timelines, and organism profiles.
+A modular, Supabase-hosted simulation engine for evolutionary biology. Built to visualize transitions from early amniotes to modern lineages (Dinosauria, Aves, Mammalia) through an interactive, live-editable data matrix.
 
 ---
 
-## ✨ Features
+## Architecture
+* **Engine:** Modular, component-driven simulation framework.
+* **Storage:** Supabase PostgreSQL backend.
+* **Visualization:** Time-calibrated cladograms with live data nodes.
+* **Dev Mode:** Embedded instrumentation for real-time debugging and trait manipulation.
 
-- 🌳 Interactive cladogram
-- 📅 Geological timeline
-- 🧬 Organism profile cards
-- 🔍 Smart search
-- ↔️ Pan & zoom
-- 💾 Export as standalone HTML
-- 📱 Responsive interface
-
----
-
-## 📜 License
-
- **GNU General Public License v3.0 (GPL-3.0)**.
+## Technical Stack
+| Feature | Status |
+| :--- | :--- |
+| **Backend** | Supabase |
+| **Data Flow** | Inline-Editable Matrix |
+| **Deployment** | Dev Mode Enabled |
+| **System** | Modular Architecture |
 
 ---
 
-## 👨‍🏫 Author
-
-**Draven Ashcroft**
-
-**M.Sc. Agricultural Entomology**  
-**ASRB–NET Qualified**  
-**DIPS Chain of Institutions, Tanda**
-
----
-
-## 🙏 Acknowledgements
-
-Developed with assistance from modern AI tools and cloud technologies.
-
-Special thanks to:
-
-- **OpenAI (ChatGPT)** — scientific review, debugging, and implementation
-- **Anthropic Claude** — implementation assistance and optimization
-- **Google Gemini** — concept exploration and refinement
-- **Moonshot AI** — debugging and prototype refinement
-- **DeepSeek** — early drafts and experimentation
-- **Supabase** — backend infrastructure, image hosting, URL management, and cloud storage
-
----
-
-<p align="center">
-
-## 🌳 Phylogenix
-
-### *Tracing the Evolutionary Tree of Life.*
-
-</p>
+## License
+**GPL-3.0 License**.
